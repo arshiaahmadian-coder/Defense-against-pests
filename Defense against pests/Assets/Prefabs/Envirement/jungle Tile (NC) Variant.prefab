@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4171595263874026150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_Name
+      value: jungle Tile (NC) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+--- !u!1 &3829486968507791351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
+  m_PrefabInstance: {fileID: 4171595263874026150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2569600994552640574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829486968507791351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c329c5e9ce3418a488e4d52746b45391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plant: {fileID: 0}
+  isPlowed: 0
+  trashPlants:
+  - {fileID: 4750533700257382499, guid: bcb459d7a80e79c4b8bd7807c0aed6c9, type: 3}
+  - {fileID: 8950818739151780640, guid: 474a4b3560efb3e428c3f1128a2e239e, type: 3}
+  - {fileID: 8983018962958400401, guid: 6a7a45da8cc457e40b6459691b8943a6, type: 3}
+  - {fileID: 3078919008368338772, guid: 78800ba824b4d5c478015633af1b81f0, type: 3}
+  - {fileID: 3078919008368338772, guid: 78800ba824b4d5c478015633af1b81f0, type: 3}
+  - {fileID: 3078919008368338772, guid: 78800ba824b4d5c478015633af1b81f0, type: 3}
+  - {fileID: 3409672721968971220, guid: 1af362716e133154da4d8953902b954a, type: 3}
+  - {fileID: 3409672721968971220, guid: 1af362716e133154da4d8953902b954a, type: 3}
+  interactingTime: 1
+  tileType: 0
+  hasTrashPlantChance: 7.5
+--- !u!64 &5519272356248033566
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829486968507791351}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: a9eec8e56e2483a45840259b9eae1639, type: 3}
