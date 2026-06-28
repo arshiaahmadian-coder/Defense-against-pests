@@ -30,6 +30,7 @@ Solo Developer (Programmer / 3D Artist / Game Designer)
 * C#
 * Belender
 * Git
+* Object-Oriented Programming (OOP)
 
 ## Screenshots
 
