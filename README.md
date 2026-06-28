@@ -2,7 +2,7 @@
 
 ## About
 
-A game developed with Unity and C#.
+A 3D top-down strategy and base defense game where players must protect their farm from waves of hostile insects. To survive, players gather essential resources such as water and sunlight, grow crops, and convert their harvest into valuable materials used for expansion and defense. Resources can be used to construct defensive structures that automatically protect the farm against incoming insect attacks. As the game progresses, enemy pressure increases, requiring efficient resource management, strategic building placement, and careful planning to maintain and defend the farm.
 
 ## Genre
 
