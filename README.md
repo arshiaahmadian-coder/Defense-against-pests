@@ -28,7 +28,7 @@ Solo Developer (Programmer / 3D Artist / Game Designer)
 
 * Unity
 * C#
-* Belender
+* Blender
 * Git
 * Object-Oriented Programming (OOP)
 
