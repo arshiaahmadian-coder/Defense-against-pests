@@ -44,7 +44,7 @@ Solo Developer (Programmer / 3D Artist / Game Designer)
 
 ## Challenges
 
-One of the main challenges was implementing the Player State Machine
+One of the main technical challenges of this project was designing an object-oriented architecture for both enemies and defensive buildings.
 
 ## Status
 
